@@ -65,19 +65,4 @@ abstract class APP_Controller_Application extends PPI_Controller {
 		$this->load($template, $options);
 	}
 
-	/**
-	 * Override for the load method
-	 *
-	 * @param string $p_sTemplate The template name
-	 * @param array $p_aOptions Optional options
-	 */
-	function load($p_sTemplate, array $p_aOptions = array()) {
-		if(!isset($p_aOptions['aRecentPosts'])) {
-			$oBlog = new APP_Model_Blog();
-			$p_aOptions['aRecentPosts'] = $oBlog->getPosts('published = 1')->fetchAll();
-		}
-		parent::load($p_sTemplate, $p_aOptions);
-	}
-
-
 }
