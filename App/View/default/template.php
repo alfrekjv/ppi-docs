@@ -46,7 +46,7 @@ else:
                 <p><a href="cache.html#checking-if-data-exists" title="System requirements">Checking if data exists</a></p>
                 <p><a href="cache.html#removing-data" title="System requirements">Removing data</a></p>
                 <br>
-                <h2><a href="" title="">Get and POST</a></h2>
+                <h2><a href="" title="">GET and POST</a></h2>
                 <p><a href="input.html#getting-params-from-the-url" title="System requirements">Getting params from the URL</a></p>
                 <p><a href="input.html#detecting-form-submits" title="System requirements">Detecting form submits</a></p>
                 <p><a href="input.html#getting-params-from-post" title="System requirements">Getting params from POST (form)</a></p>

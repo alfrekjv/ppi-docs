@@ -220,7 +220,10 @@ button {  width: auto; overflow: visible;}
 
 
 
-
+@font-face {
+	font-family: Arvo;
+	src: url('fonts/arvo-regular.ttf');
+}
 
  /* Primary Styles
     Author: Paul Dragoonis
@@ -345,6 +348,7 @@ section.main-content-container {
 }
 .main-content-right h2 {
 	font-size: 1.0em;
+	font-family: "Arvo", "Arial", "Verdana";
 }
 
 .main-content-right p a:last-child {
@@ -468,7 +472,8 @@ section.main-content-container {
 }
 
 .main-content h1, .main-content-right h1, .main-content h2, .main-content h3, .main-content h4 {
-	color: #ECF1EF;
+	color: #FFF;
+	font-family: "Arvo", "Arial", "Verdana";
 }
 
 .main-content h1, .main-content-right h1 {
@@ -479,6 +484,10 @@ section.main-content-container {
 
 .main-content p + h2 {
 	margin-top: 5px;
+}
+
+.main-content h3 + p {
+	margin-top: 10px;
 }
 
 .main-content h2, .main-content-right h2 {
