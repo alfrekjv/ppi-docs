@@ -504,6 +504,10 @@ section.main-content-container {
 	padding-top: 12px;
 }
 
+.main-content-right p + h2 {
+	margin-top: 15px;
+}
+
 pre code { padding: 5px 5px 5px 15px; font-size: 0.8em; }
 
 

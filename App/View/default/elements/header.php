@@ -2,7 +2,7 @@
     <div class="header-container">
         <div class="fl header-left"></div>
         <div class="fl rel header-middle">
-            <a href="<?php echo $baseUrl; ?>" title="PPI Framework"><img class="abs" src="<?php echo $baseUrl; ?>images/icons-logo.png" alt="PPI Logo"></a>
+            <a href="http://www.ppiframework.com" title="PPI Framework"><img class="abs" src="<?php echo $baseUrl; ?>images/icons-logo.png" alt="PPI Logo"></a>
         	<div class="all-news-container" style="display: none;">
         	<?php
 	        if(isset($allNews)):

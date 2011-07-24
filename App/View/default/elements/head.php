@@ -14,12 +14,12 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
     <!-- CSS : implied media="all" -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/shThemeDefault.css">
-    <link rel="stylesheet" href="scripts/vtip/vtip.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/base.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>css/shThemeDefault.css">
+    <link rel="stylesheet" href="<?php echo $baseUrl; ?>scripts/vtip/vtip.css">
 
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-    <script src="scripts/modernizr-1.6.min.js"></script>
-    <script type="text/javascript" src="scripts/highlight.pack.js"></script>
+    <script src="<?php echo $baseUrl; ?>scripts/modernizr-1.6.min.js"></script>
+    <script src="<?php echo $baseUrl; ?>scripts/highlight.pack.js"></script>
 
 </head>
