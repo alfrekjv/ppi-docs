@@ -13,7 +13,7 @@ abstract class APP_Controller_Application extends PPI_Controller {
 	/**
 	 * Check if the current logged in user is an admin.
 	 *
-	 * @return unknown
+	 * @return boolean
 	 */
 	function isAdminLoggedIn() {
 		$aAuthData = $this->getAuthData();
