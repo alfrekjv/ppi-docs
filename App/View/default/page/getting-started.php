@@ -25,7 +25,7 @@ $app->boot()->dispatch();
 	</pre></code>
 
 	<h2>Config File</h2>
-	<p>The second thing you'll need to do is configure your appliation's config file. By default this is located in <span class="light">/App/Config/general.ini</span>.</p>
+	<p>The second thing you'll need to do is configure your application's config file. By default this is located in <span class="light">/App/Config/general.ini</span>.</p>
 
 	<h3>Config Option: BaseUrl</h3>
 	<p>Change the baseUrl to your sites root, with an ending slash.</p>
