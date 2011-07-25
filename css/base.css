@@ -477,9 +477,9 @@ section.main-content-container {
 }
 
 .main-content h1, .main-content-right h1 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: normal;
-	margin-bottom: 12px;
+	margin-bottom: 20px;
 	text-shadow: 1px 1px 1px #2F0909;
 }
 
@@ -492,7 +492,7 @@ section.main-content-container {
 }
 
 .main-content h2, .main-content-right h2 {
-	font-size: 0.9em;
+	font-size: 1.2em;
 	font-weight: normal;
 	margin-bottom: 5px;
 	text-shadow: 1px 1px 1px #2F0909
