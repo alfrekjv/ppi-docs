@@ -1,4 +1,9 @@
-<h1>Coding Standards</h1>
+
+
+<div class="content-box">
+	<h1>Coding Standards</h1>
+	<p>If you are interested in contributing to the PPI project the following documentation will help you get to grips with the style of coding we have. It is mostly common sense and readability guidelines. Most of our guidelines can be matches back to the PEAR standards.</p>
+</div>
 
 <div class="content-box">
 
