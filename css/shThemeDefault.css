@@ -7,6 +7,7 @@ pre code, .code pre {
 	color: white;
 	background: #141414;
 	border: 1px solid #E6E6E6;
+	padding-bottom: 20px;
 	/*overflow: auto;*/
 }
 .code ol, pre code .rownumber {

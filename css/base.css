@@ -96,7 +96,7 @@ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #ADC8C5;
   /* set your base font here, to apply evenly */
-   font-family: Verdana, serif;
+  font-family: Verdana, serif;
 }
 
 /*.header-containers (h1,h2,etc) have no default font-size or margin,
@@ -128,7 +128,7 @@ td, td img { vertical-align: top;}
 sub { vertical-align: sub; font-size: smaller;}
 sup { vertical-align: super; font-size: smaller;}
 
-p { font-size: 0.8em; }
+p { font-size: 0.8em; font-family: Verdana, serif; }
 
 pre {
   padding: 15px;
@@ -508,8 +508,17 @@ section.main-content-container {
 	margin-top: 15px;
 }
 
-pre code { padding: 5px 5px 5px 15px; font-size: 0.8em; }
+pre code {
+	padding: 5px 5px 5px 15px; font-size: 0.8em;
+}
 
+.main-content-right .block {
+	margin-bottom: 12px
+}
+
+.main-content-right .block-hide-content p {
+	display: none;
+}
 
 /*
  * Media queries for responsive design
